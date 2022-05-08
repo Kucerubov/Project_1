@@ -1,0 +1,78 @@
+.btn-group{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+
+.btn_track button{
+    font-family: Roboto-Regular, sans-serif;
+    padding: 11px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.btn_container{
+    overflow: hidden;
+}
+
+.btn_track{
+    display: flex;
+    transition: .2s;
+}
+
+.orange_btn, .orange_btn_start, .orange_btn_end, .orange_btn_middle,
+.orange_btn:hover {
+    border: 1px solid #FE6D34;
+    color: white;
+    border-bottom: 4px solid  #C34411;
+    background:#FF5815;
+}
+
+.orange_btn_end,
+.orange_btn_end:hover {
+    color: white;
+    border-bottom: 4px solid  #C34411;
+    background:#D74207;
+}
+
+.orange_btn:hover {
+    background:  #FF743D;
+    border-bottom: 4px solid  #FF743D;
+    text-decoration: 1px underline #CCD8E8;
+}
+
+.orange_btn_middle:hover {
+    background:  #FF743D;
+    border-bottom: 4px solid  #FF743D;
+    text-decoration: 1px underline #CCD8E8;
+}
+
+.orange_btn_start:hover{
+    background:  #FF743D;
+    border-bottom: 4px solid  #FF743D;
+    text-decoration: 1px underline #CCD8E8;
+}
+
+.orange_btn_end:hover{
+    background:  #FF743D;
+    border-bottom: 4px solid  #FF743D;
+    text-decoration: 1px underline #CCD8E8;
+}
+
+.orange_btn_end{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.orange_btn_start{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.orange_btn_middle{
+    white-space: nowrap;
+}

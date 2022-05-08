@@ -1,0 +1,47 @@
+.buying_right_track{
+    display: flex;
+    align-items: flex-start;
+    transition: .2s;
+}
+
+.buying_right_container{
+    overflow: hidden;
+}
+
+.buying_right{
+    margin-top: 39px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_buying{
+    width: 250px;
+    height: 250px;
+}
+
+.buying_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 980px) and (max-width: 1440px) {
+    .btn_backBuying, .btn_nextBuying {
+        display: none;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 980px) {
+    .btn_backBuying, .btn_nextBuying {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 750px) {
+    .btn_backBuying, .btn_nextBuying {
+        display: none;
+    }
+}

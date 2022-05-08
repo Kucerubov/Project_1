@@ -1,0 +1,220 @@
+.block-1{
+    margin-top: -17px;
+    display: inline;
+}
+
+.block-1 a{
+    color: #5279B0;
+    text-decoration: 2px dashed underline #CCD8E8;
+}
+
+.logo p{
+    font-size: 46px;
+    font-family: Roboto-Thin, sans-serif;
+    display: inline;
+}
+
+.logo .my{
+    font-family: Roboto-Regular, sans-serif;
+    color: #FE6D34;
+    background: linear-gradient(105.75deg, #E2E5EC 2.53%, #FFFFFF 102.25%);
+    border-radius: 12px;
+    width: 79px;
+    height: 47px;
+}
+
+.text_under_logo{
+    font-size: 11px;
+    color: #8F9092;
+    margin-top: 4px;
+    font-family: Roboto-Regular, sans-serif;
+}
+
+.message a{
+    width: 70px;
+    position: relative;
+    top: -48px;
+    left: 15px;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #6183B3;
+    text-decoration: 2px dashed underline #CCD8E8;
+    display: block;
+}
+
+.block-2{
+    display: flex;
+    margin-top: 25px;
+}
+
+.num_contact{
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.link_to_something{
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+    color: #5279B0;
+    text-decoration: 2px underline #CCD8E8;
+}
+
+.num_contact p{
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.num_contact .num-1{
+    font-size: 24px;
+}
+.img_and_num{
+    display: flex;
+}
+
+.img_and_num p{
+    margin-left: 5px;
+}
+
+.RUB_icon p{
+    width: 70px;
+    position: relative;
+    top: -42px;
+    left: -22px;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #95A2AB;
+    display: block;
+}
+
+.rub_voip {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.rub_txt_2{
+    margin-left: -38px;
+    margin-top: -3px;
+    font-size: 16px;
+    font-family: Roboto-Regular, sans-serif;
+    font-style: italic;
+}
+
+.rub_txt_1{
+    margin-bottom: 0;
+    margin-left: -38px;
+    margin-top: -45px;
+    font-size: 18px;
+    color: #FF5817;
+    font-family: Roboto-Regular, sans-serif;
+    font-style: italic;
+}
+
+.field_search{
+    display: flex;
+    width: 234px;
+    height: 29px;
+    background: #EFF0F4;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.field_search p{
+    font-size: 13px;
+    color: #909497;
+    margin-left: 15px;
+    font-family: Roboto-Regular, sans-serif;
+    white-space: nowrap;
+}
+
+.btn_search{
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+    width: 61px;
+    height: 26px;
+    background: #FF5716;
+    border-radius: 3px;
+}
+
+.btn_search p{
+    margin-left: 8px;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.field_search{
+    margin-top: -35px;
+}
+
+.block-4 div a{
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 13px;
+    color: #5279B0;
+    margin-left: 23px;
+    text-decoration: 2px underline #CCD8E8;
+}
+
+.field_shop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 202px;
+    height: 55px;
+    background:
+            linear-gradient(105.75deg, #E2E5EC 2.53%,
+            rgba(255, 255, 255, 0.55) 55.51%, #E2E5EC 102.25%);
+    border-radius: 12px;
+}
+
+.field_shop div{
+    margin-right: 60px;
+}
+
+.field_shop{
+    margin-top: 14px;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+}
+
+.shop_text_1{
+    margin-bottom: -1px;
+    margin-left: 0;
+}
+.shop_text_2{
+    margin-left: -23px;
+    margin-top: 0;
+}
+
+.favorites_and_comparison div img{
+    margin-bottom: -2px;
+    margin-right: 4px;
+}
+
+.favorites_and_comparison div p a{
+    padding-left: 0;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.favorites_and_comparison div p{
+    border-bottom: 3px dashed #6B8DBB;
+}
+
+
+.favorites_and_comparison{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 12px;
+}
+
+.favorites_and_comparison div{
+    display: flex;
+    align-items: center;
+}

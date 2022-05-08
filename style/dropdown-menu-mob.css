@@ -1,0 +1,28 @@
+.menu-catalogmob li a:hover{color: #FF5716;}
+.menu-about_companymob li a:hover{color: #FF5716;}
+.menu-servicesmob li a:hover{color: #FF5716;}
+
+.menu-catalogmob, .menu-about_companymob, .menu-servicesmob {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: -40px;
+    padding: 20px;
+}
+
+.menu-servicesmob{
+    margin-left: -100px;
+}
+
+
+.submenu-items {
+    padding: 12px 0;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+}

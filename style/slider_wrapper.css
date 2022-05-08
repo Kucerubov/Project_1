@@ -1,0 +1,136 @@
+.slider_wrapper{
+    margin-top: 39px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider_container, .slider_container_2, .slider_container_3{
+    overflow: hidden;
+}
+
+.slider_track_1, .slider_track_2, .slider_track_3{
+    display: flex;
+    align-items: flex-start;
+    transition: .2s;
+}
+
+.slider_item{
+    position: relative;
+    min-height: 350px;
+    min-width: 180px;
+    max-width: 258px;
+    margin-right: 50px;
+    padding: 37px;
+    border: 2px solid #E4E7EE;
+    border-radius: 12px;
+    font-family: Roboto-Regular, sans-serif;
+}
+
+.top_banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -6px;
+    left: 12px;
+}
+
+.top_banner p{
+    top: 0;
+    left: 4px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+}
+
+.top_banner .like_banner{
+    top: 8px;
+    color: white;
+    position: absolute;
+}
+
+.top_banner .sale_percentage{
+    font-size: 20px;
+    top: -11px;
+    left: 9px;
+}
+
+.main_img_product{
+    display: block;
+    margin-top: 36px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 170px;
+    height: 170px;
+}
+
+.slider_item .title{
+    bottom: 123px;
+    margin-left: -20px;
+    position: absolute;
+    color: #4B76AD;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.slider_item .price{
+    margin-left: -20px;
+    position: absolute;
+    bottom: 79px;
+    font-size: 14px;
+}
+
+.slider_item .current_price{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.slider_item .previous_price{
+    white-space: nowrap;
+    font-size: 13px;
+    text-decoration-line: line-through;
+    color: #FC5E1F;
+    margin-bottom: 16px;
+    margin-left: 10px;
+}
+
+.btn_shop{
+    background: #FF5716;
+    font-size: 14px;
+    color:white;
+    padding: 10px 25px;
+    max-height: 38px;
+    max-width: 118px;;
+    border-radius: 7px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #C34411;
+}
+
+.cart_icon{
+    padding-right: 7px;
+}
+
+.buy_and_more{
+    position: absolute;
+    bottom: 22px;
+    margin-left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy_and_more a{
+    padding-left: 13px;
+}
+
+.btn_shop:hover{
+    background: #4673AC;
+    border-bottom: 4px solid #385985;
+}
